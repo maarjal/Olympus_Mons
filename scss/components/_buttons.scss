@@ -1,0 +1,26 @@
+button {
+  padding: 5%;
+  border: none;
+  margin-bottom: 5%;
+  font-size: 1.2em;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  outline: none;
+  transition: all 0.5s;
+}
+
+.fly {
+  background: $green;
+  border-bottom: 0.6em solid darken($green, 20%);
+}
+
+.basecamp {
+  background: $orange;
+  border-bottom: 0.6em solid darken($orange, 20%);
+}
+
+button:hover, button:active {
+  border-bottom: none;
+}

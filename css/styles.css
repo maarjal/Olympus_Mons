@@ -56,24 +56,57 @@ body {
   height: 100vh;
   width: 100vw; }
 
+button {
+  padding: 5%;
+  border: none;
+  margin-bottom: 5%;
+  font-size: 1.2em;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  outline: none;
+  transition: all 0.5s; }
+
+.fly {
+  background: #8cc4bc;
+  border-bottom: 0.6em solid #4f9b90; }
+
+.basecamp {
+  background: #cf5423;
+  border-bottom: 0.6em solid #783114; }
+
+button:hover, button:active {
+  border-bottom: none; }
+
 body {
   background: url("../img/background.png");
   background-repeat: repeat-x;
   background-size: cover;
   background-position: center;
-  -webkit-animation: BgMove 5s linear infinite; }
+  display: flex;
+  justify-content: center; }
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 15em; }
 
 .red-man {
   position: absolute;
-  right: -30%;
-  top: 50%;
-  -webkit-animation: redManMove 3s ease-out forwards; }
+  right: 10%;
+  top: 50%; }
 
 .green-man {
   position: absolute;
-  left: -30%;
-  top: 10%;
-  -webkit-animation: greenManMove 3s ease-out forwards; }
+  left: 5%;
+  top: 10%; }
 
 @keyframes greenManMove {
   100% {
