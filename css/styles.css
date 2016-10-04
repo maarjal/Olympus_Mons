@@ -169,6 +169,26 @@ input {
   border: none;
   border-radius: 0.3em; }
 
+.sandboarder {
+  position: absolute;
+  top: 35%;
+  left: 15%; }
+
+.green-spaceship {
+  position: absolute;
+  top: 12%;
+  left: 19%; }
+
+.red-spaceship {
+  position: absolute;
+  top: 19%;
+  left: 13%; }
+
+.small-flyer-green {
+  position: absolute;
+  top: 30%;
+  right: 30%; }
+
 .basecamp-wrap {
   width: 100%;
   height: 100%;
