@@ -56,7 +56,20 @@ body {
   height: 100vh;
   width: 100vw; }
 
-h1 {
-  color: green; }
+body {
+  background: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.red-man {
+  position: absolute;
+  left: 70%;
+  top: 50%; }
+
+.green-man {
+  position: absolute;
+  left: 5%;
+  top: 10%; }
 
 /*# sourceMappingURL=styles.css.map */
