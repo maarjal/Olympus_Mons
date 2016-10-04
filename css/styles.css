@@ -122,5 +122,48 @@ body {
     background-position: 0 0; }
   to {
     background-position: 100% 0; } }
+.packages-wrap {
+  width: 100%;
+  height: 100%;
+  background: darkgrey; }
+
+/* nav-bar: */
+nav {
+  padding: 1% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5%;
+    text-transform: uppercase;
+    border-left: 3px solid white;
+    padding: 3%; }
+    nav a:first-child {
+      border-left: none; }
+
+.links {
+  width: 30%;
+  display: flex;
+  justify-content: center; }
+
+.search {
+  display: flex;
+  align-items: center; }
+
+.search-button {
+  margin-top: 4.5%;
+  width: 100px;
+  background: #F3B968;
+  font-size: 1.1em;
+  color: white; }
+
+input {
+  width: 150px;
+  height: 43px;
+  background: white;
+  border: none;
+  border-radius: 0.3em; }
 
 /*# sourceMappingURL=styles.css.map */
