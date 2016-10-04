@@ -66,15 +66,15 @@ button {
   text-transform: uppercase;
   border-radius: 0.3em;
   outline: none;
-  transition: all 0.5s; }
+  transition: all 0.6s; }
 
 .fly {
   background: #8cc4bc;
-  border-bottom: 0.6em solid #4f9b90; }
+  border-bottom: 0.5em solid #4f9b90; }
 
 .basecamp {
   background: #cf5423;
-  border-bottom: 0.6em solid #783114; }
+  border-bottom: 0.5em solid #783114; }
 
 button:hover, button:active {
   border-bottom: none; }
@@ -85,7 +85,8 @@ body {
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  -webkit-animation: BgMove 5s linear infinite; }
 
 .wrap {
   display: flex;
@@ -100,13 +101,15 @@ body {
 
 .red-man {
   position: absolute;
-  right: 10%;
-  top: 50%; }
+  right: -30%;
+  top: 50%;
+  -webkit-animation: redManMove 3s ease-out forwards; }
 
 .green-man {
   position: absolute;
-  left: 5%;
-  top: 10%; }
+  left: -30%;
+  top: 10%;
+  -webkit-animation: greenManMove 3s ease-out forwards; }
 
 @keyframes greenManMove {
   100% {
