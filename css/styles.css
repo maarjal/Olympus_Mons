@@ -69,10 +69,12 @@ button {
   transition: all 0.6s; }
 
 .fly {
+  width: 15em;
   background: #8cc4bc;
   border-bottom: 0.5em solid #4f9b90; }
 
 .basecamp {
+  width: 15em;
   background: #cf5423;
   border-bottom: 0.5em solid #783114; }
 
@@ -88,6 +90,11 @@ body {
   justify-content: center;
   -webkit-animation: BgMove 5s linear infinite; }
 
+.logo-index {
+  position: absolute;
+  top: 4%;
+  left: 5%; }
+
 .wrap {
   display: flex;
   flex-direction: column;
@@ -97,7 +104,8 @@ body {
 .buttons {
   display: flex;
   flex-direction: column;
-  width: 20em; }
+  width: 20em;
+  align-items: center; }
 
 .red-man {
   position: absolute;

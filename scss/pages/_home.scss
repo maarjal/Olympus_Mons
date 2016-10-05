@@ -8,6 +8,12 @@ body {
   -webkit-animation: BgMove 5s linear infinite;
 }
 
+.logo-index {
+  position: absolute;
+  top: 4%;
+  left: 5%;
+}
+
 .wrap {
   display: flex;
   flex-direction: column;
@@ -19,6 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 20em;
+  align-items: center;
 }
 
 .red-man {

@@ -12,11 +12,13 @@ button {
 }
 
 .fly {
+  width: 15em;
   background: $green;
   border-bottom: 0.5em solid darken($green, 20%);
 }
 
 .basecamp {
+  width: 15em;
   background: $orange;
   border-bottom: 0.5em solid darken($orange, 20%);
 }
