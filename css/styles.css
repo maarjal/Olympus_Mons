@@ -256,9 +256,83 @@ input {
 @keyframes stars {
   60% {
     opacity: 1; } }
+
 .checkout-wrap {
   width: 100%;
   height: 100%;
   background-color: #362533; }
+
+@keyframes steam {
+  60% {
+    opacity: 1; } }
+.observation {
+  position: absolute;
+  top: 29%;
+  left: 6%; }
+
+.obs-desc, .bar-desc, .room-desc, .gym-desc, .gossamer-desc {
+  opacity: 0;
+  transition: all 1.5s; }
+
+.observation:hover .obs-desc {
+  opacity: 1; }
+
+.bar:hover .bar-desc {
+  opacity: 1; }
+
+.bar {
+  position: absolute;
+  top: 47%;
+  right: 22%; }
+
+.room1 {
+  position: absolute;
+  top: 58%;
+  right: 35%; }
+
+.room2 {
+  position: absolute;
+  bottom: 30%;
+  right: 30%; }
+
+.room3 {
+  position: absolute;
+  bottom: 33%;
+  right: 25%; }
+
+.room4 {
+  position: absolute;
+  bottom: 25%;
+  right: 29%; }
+
+.room1:hover .room-desc {
+  opacity: 1; }
+
+.gym {
+  position: absolute;
+  bottom: 35%;
+  left: 15%; }
+
+.gym:hover .gym-desc {
+  opacity: 1; }
+
+.gossamer {
+  position: absolute;
+  bottom: 20%;
+  left: 10%; }
+
+.gossamer:hover .gossamer-desc {
+  opacity: 1; }
+
+.steam {
+  width: 200px;
+  position: absolute;
+  bottom: 10%;
+  right: 48%; }
+  .steam img {
+    width: 100%;
+    opacity: 0;
+    -webkit-animation: steam 6s 2s infinite; }
+>>>>>>> master
 
 /*# sourceMappingURL=styles.css.map */
