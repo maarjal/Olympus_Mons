@@ -180,18 +180,18 @@ input {
 
 .sandboarder {
   position: absolute;
-  top: 35%;
+  top: 21%;
   left: 19%; }
 
 .green-spaceship {
   position: absolute;
-  top: 12%;
-  left: 19%; }
+  top: 10%;
+  left: 13%; }
 
 .red-spaceship {
   position: absolute;
-  top: 19%;
-  left: 13%; }
+  top: 5%;
+  left: 19%; }
 
 .small-flyer-green {
   position: absolute;
@@ -211,12 +211,28 @@ input {
 .red-car {
   position: absolute;
   bottom: 38%;
-  right: 20%; }
+  right: 5%; }
 
 .green-car {
   position: absolute;
-  bottom: 29%;
+  bottom: 25%;
   right: 14%; }
+
+.sandboarder-desc, .spacerace-desc, .dune-buggy-desc, .jetpack-desc {
+  opacity: 0;
+  transition: all 1.5s; }
+
+.sandboarder:hover .sandboarder-desc {
+  opacity: 1; }
+
+.red-spaceship:hover .spacerace-desc {
+  opacity: 1; }
+
+.red-car:hover .dune-buggy-desc {
+  opacity: 1; }
+
+.jetpack:hover .jetpack-desc {
+  opacity: 1; }
 
 .basecamp-wrap {
   width: 100%;
