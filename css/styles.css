@@ -88,7 +88,8 @@ body {
   background-position: center;
   display: flex;
   justify-content: center;
-  -webkit-animation: BgMove 5s linear infinite; }
+  -webkit-animation: BgMove 10s linear infinite;
+  animation-delay: 1s; }
 
 .logo-index {
   position: absolute;
@@ -126,10 +127,10 @@ body {
   100% {
     right: 10%; } }
 @keyframes BgMove {
-  from {
+  0% {
     background-position: 0 0; }
-  to {
-    background-position: 100% 0; } }
+  100% {
+    background-position: -800px 0; } }
 .packages-wrap {
   width: 100%;
   height: 100%;
@@ -180,7 +181,7 @@ input {
 .sandboarder {
   position: absolute;
   top: 35%;
-  left: 15%; }
+  left: 19%; }
 
 .green-spaceship {
   position: absolute;
@@ -195,7 +196,27 @@ input {
 .small-flyer-green {
   position: absolute;
   top: 30%;
-  right: 30%; }
+  right: 35%; }
+
+.small-flyer-red {
+  position: absolute;
+  top: 33%;
+  right: 35%; }
+
+.jetpack {
+  position: absolute;
+  top: 12%;
+  right: 10%; }
+
+.red-car {
+  position: absolute;
+  bottom: 38%;
+  right: 20%; }
+
+.green-car {
+  position: absolute;
+  bottom: 29%;
+  right: 14%; }
 
 .basecamp-wrap {
   width: 100%;

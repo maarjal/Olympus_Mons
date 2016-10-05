@@ -57,7 +57,7 @@ input {
 .sandboarder {
   position: absolute;
   top: 35%;
-  left: 15%;
+  left: 19%;
 }
 
 .green-spaceship {
@@ -75,5 +75,29 @@ input {
 .small-flyer-green {
   position: absolute;
   top: 30%;
-  right: 30%;
+  right: 35%;
+}
+
+.small-flyer-red {
+  position: absolute;
+  top: 33%;
+  right: 35%;
+}
+
+.jetpack {
+  position: absolute;
+  top: 12%;
+  right: 10%;
+}
+
+.red-car {
+  position: absolute;
+  bottom: 38%;
+  right: 20%;
+}
+
+.green-car {
+  position: absolute;
+  bottom: 29%;
+  right: 14%;
 }

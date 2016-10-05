@@ -5,7 +5,8 @@ body {
   background-position: center;
   display: flex;
   justify-content: center;
-  -webkit-animation: BgMove 5s linear infinite;
+  -webkit-animation: BgMove 10s linear infinite;
+  animation-delay: 1s;
 }
 
 .logo-index {
@@ -53,6 +54,6 @@ body {
 }
 
 @keyframes BgMove {
-  from { background-position: 0 0; }
-  to { background-position: 100% 0; }
+  0% { background-position: 0 0; }
+  100% { background-position: -800px 0; }
 }
