@@ -25,13 +25,17 @@
   60%  { opacity: 1; }
 }
 
+@keyframes steam {
+  60%  { opacity: 1; }
+}
+
 .observation {
   position: absolute;
   top: 29%;
   left: 6%;
 }
 
-.obs-desc, .bar-desc, .room-desc {
+.obs-desc, .bar-desc, .room-desc, .gym-desc, .gossamer-desc {
   opacity: 0;
   transition: all 1.5s;
 }
@@ -76,4 +80,36 @@
 
 .room1:hover .room-desc {
   opacity: 1;
+}
+
+.gym {
+  position: absolute;
+  bottom: 35%;
+  left: 15%;
+}
+
+.gym:hover .gym-desc {
+  opacity: 1;
+}
+
+.gossamer {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+}
+
+.gossamer:hover .gossamer-desc {
+  opacity: 1;
+}
+
+.steam {
+  width: 200px;
+  position: absolute;
+  bottom: 10%;
+  right: 48%;
+  & img {
+    width: 100%;
+    opacity: 0;
+    -webkit-animation: steam 6s 2s infinite;
+  }
 }
