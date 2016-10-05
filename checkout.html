@@ -6,22 +6,55 @@
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
     <title>Olympus Mons Packages</title>
   </head>
-  <body id="checkout-body">
-    <div class="checkout-title">
-      <img src="img/logo.png" alt="Company Logo"/>
-      <h1>CHECKOUT</h1>
-      <img src="img/flame-checkout.png" alt="a rocket flame"/>
-      <img src="img/x-out-close.png" alt="an x to close the screen"/>
-    </div>
-    <div>
-      <h2>YOUR BOOKINGS</h2>
-    </div>
-    <div class="">
-<!-- a div to place an image of the products when clicked -->
-    </div>
-    <div class="form-group checkout-input-bar">
-      <label for="name">Name:</label>
-      <input id="name-input" class="form-control" type="text" placeholder="first last" required>
+  <body>
+    <div class="checkout-wrap">
+      <div class="checkout-title">
+        <img src="img/logo.png" alt="Company Logo"/>
+        <h1>CHECKOUT</h1>
+        <img src="img/flame-checkout.png" alt="a rocket flame"/>
+        <img src="img/x-out-close.png" alt="an x to close the screen"/>
+      </div>
+      <div>
+        <h2>YOUR BOOKINGS</h2>
+      </div>
+      <div class="">
+  <!-- a div to place an image of the products when clicked -->
+      </div>
+      <form id="checkout-input" class="checkout-input-bar">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input id="name-input" class="form-control" type="text" placeholder="first last" required>
+        </div>
+        <div class="form-group">
+          <label for="name">email:</label>
+          <input id="email-input" class="form-control" type="text" placeholder="you@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="name">Bitcoin Card:</label>
+          <input id="bitcoin-input" class="form-control" type="text" placeholder="$ $ $" required>
+        </div>
+        <div class="form-group" id="medical-window">
+          <label for="name">Medical Conditions:</label>
+          <input id="medical-input" class="form-control" type="text" placeholder="$ $ $" required>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="waiver" value="yes" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="waiver" value="no">
+            No
+          </label>
+          <h6>*by checking yes, you agree that Olympus Mons will not be held responsible in ANY way for your death.  It was going to happen anyway.</h6>
+        </div>
+        <h2>Total</h2>
+        <button class="submit" type="submit" name="button">Place Order</button>
+        <img src="img/yellow-lines-med.png" alt="a medium yellow corner"/>
+      </form>
+        <img src="img/yellow-lines-large.png" alt="a large yellow line for the body"/>
     </div>
   </body>
 </html>

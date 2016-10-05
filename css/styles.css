@@ -256,5 +256,9 @@ input {
 @keyframes stars {
   60% {
     opacity: 1; } }
+.checkout-wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #362533; }
 
 /*# sourceMappingURL=styles.css.map */
