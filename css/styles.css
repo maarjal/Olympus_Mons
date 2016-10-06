@@ -52,6 +52,15 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+@fontface {
+  font-family: 'portico';
+  src: url(../fonts/portico-stencil.otf); }
+@fontface {
+  font-family: 'righteous';
+  src: url(../fonts/righteous-regular.ttf); }
+@fontface {
+  font-family: 'cabin';
+  src: url(../fonts/cabin-regular.ttf); }
 body {
   height: 100vh;
   width: 100vw; }
@@ -256,12 +265,6 @@ input {
 @keyframes stars {
   60% {
     opacity: 1; } }
-
-.checkout-wrap {
-  width: 100%;
-  height: 100%;
-  background-color: #362533; }
-
 @keyframes steam {
   60% {
     opacity: 1; } }
@@ -333,6 +336,13 @@ input {
     width: 100%;
     opacity: 0;
     -webkit-animation: steam 6s 2s infinite; }
->>>>>>> master
+
+.checkout-wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #362533; }
+
+.result {
+  background: white; }
 
 /*# sourceMappingURL=styles.css.map */
