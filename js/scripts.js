@@ -19,6 +19,14 @@ $(document).ready(function(){
     $(".result").append('<img src="img/dune2.png" alt="Dune Buggy description" />');
     $(".checkout-wrap").show();
   });
+  $("#climber").click(function() {
+    $(".result").append('<img src="img/climb2.png" alt="Dune Buggy description" />');
+    $(".checkout-wrap").show();
+  });
+  $("#wingsuit").click(function() {
+    $(".result").append('<img src="img/wingsuits2.png" alt="Dune Buggy description" />');
+    $(".checkout-wrap").show();
+  });
   $("#x-out-checkout").click(function(){
     $(".checkout-wrap").hide();
   });
