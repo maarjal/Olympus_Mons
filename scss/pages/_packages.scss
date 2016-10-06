@@ -59,18 +59,21 @@ input {
 }
 
 .sandboarder {
+  border: 2px solid tomato;
   position: absolute;
   top: 21%;
   left: 19%;
 }
 
 .green-spaceship {
+  border: 2px solid tomato;
   position: absolute;
   top: 10%;
   left: 13%;
 }
 
 .red-spaceship {
+  border: 2px solid tomato;
   position: absolute;
   top: 5%;
   left: 19%;
@@ -83,34 +86,38 @@ input {
 }
 
 .small-flyer-red {
+  border: 2px solid tomato;
   position: absolute;
   top: 33%;
   right: 35%;
 }
 
 .jetpack {
+  border: 2px solid blue;
   position: absolute;
-  top: 12%;
-  right: 10%;
+  top: 35%;
+  left: 25%;
 }
 
-.red-car {
+.green-car {
+  border: 2px solid hotpink;
   position: absolute;
   bottom: 38%;
   right: 5%;
 }
 
-.green-car {
+.red-car {
+  border: 2px solid tomato;
   position: absolute;
   bottom: 25%;
-  right: 14%;
+  right: 0%;
 }
 
 .car-exhaust1 {
   opacity: 0;
   position: absolute;
   bottom: 46%;
-  right: 40%;
+  right: 17%;
   -webkit-animation: carExhaust 6s 2s infinite;
 }
 
@@ -118,7 +125,7 @@ input {
   opacity: 0;
   position: absolute;
   bottom: 33%;
-  right: 26%;
+  right: 35%;
   -webkit-animation: carExhaust 6s 2s infinite;
 }
 
