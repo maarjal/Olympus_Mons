@@ -6,11 +6,6 @@
             box-sizing: border-box;
 }
 
-body {
-  height: 100vh;
-  width: 100vw;
-}
-
 @fontface {
   font-family: 'portico';
   src: url(../fonts/portico-stencil.otf);
@@ -24,4 +19,9 @@ body {
 @fontface {
   font-family: 'cabin';
   src: url(../fonts/cabin-regular.ttf);
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
 }
