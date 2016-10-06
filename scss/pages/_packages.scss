@@ -59,21 +59,18 @@ input {
 }
 
 .sandboarder {
-  border: 2px solid tomato;
   position: absolute;
   top: 21%;
   left: 19%;
 }
 
 .green-spaceship {
-  border: 2px solid tomato;
   position: absolute;
   top: 10%;
   left: 13%;
 }
 
 .red-spaceship {
-  border: 2px solid tomato;
   position: absolute;
   top: 5%;
   left: 19%;
@@ -86,28 +83,24 @@ input {
 }
 
 .small-flyer-red {
-  border: 2px solid tomato;
   position: absolute;
   top: 13%;
   right: 11%;
 }
 
 .jetpack {
-  border: 2px solid blue;
   position: absolute;
   top: 35%;
   left: 25%;
 }
 
 .green-car {
-  border: 2px solid hotpink;
   position: absolute;
   bottom: 38%;
   right: 5%;
 }
 
 .red-car {
-  border: 2px solid tomato;
   position: absolute;
   bottom: 25%;
   right: 0%;
@@ -135,7 +128,7 @@ input {
   right: 0%;
 }
 
-.sandboarder-desc, .spacerace-desc, .dune-buggy-desc, .jetpack-desc, .climber-desc  {
+.sandboarder-desc, .spacerace-desc, .dune-buggy-desc, .jetpack-desc, .climber-desc, .wingsuit-desc  {
   opacity: 0;
   transition: all 1.5s;
   cursor: pointer;
@@ -162,6 +155,10 @@ input {
 }
 
 .mountain-climber:hover .climber-desc {
+  opacity: 1;
+}
+
+.small-flyer-red:hover .wingsuit-desc {
   opacity: 1;
 }
 
