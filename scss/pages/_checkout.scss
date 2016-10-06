@@ -13,8 +13,7 @@ h2 {
   font-family: 'righteous', sans-serif;
   font-size: 30px;
   color: #8cc4bc;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  margin: 20px 0px 30px 40px;
 }
 
 label {
@@ -29,6 +28,9 @@ h6 {
   color: #fff;
   width: 167px;
   height: 100%;
+  padding: 10px;
+  margin-left: 250px;
+  margin-right: 20px;
 }
 
 nav {
@@ -51,6 +53,7 @@ nav {
 
 form {
   background-color: #607477;
+  margin: 20px;
 }
 
 //class selectors
@@ -70,35 +73,52 @@ form {
 background: #CF5423;
 border: 2px solid #FFFFFF;
 border-radius: 5px;
-padding: 10px 30px 10px 30px;
+padding: 15px 30px 15px 30px;
+font-family: 'righteous';
+letter-spacing: 0.5px;
+margin: 10px 20px 50px 250px;
 }
 
 .checkout-flex {
   display: flex;
-  flex-wrap: wrap;
-  float:right;
+  width: 95%;
+  justify-content: flex-end;
+  margin-right: 20px;
+  border-right: 5px solid #F3B968;
+  border-bottom: 5px solid #F3B968;
+  // margin-bottom: 10px;
+  // margin-right: 10px;
+  // float:right;
 }
 
 .form-control {
   width: 216px;
   height: 35px;
-  margin: 10px;
+  margin: 1px 20px 15px 10px;
 }
 
 .radio {
-  margin: 10px;
+  padding-left: 40px;
 }
+
+.form-group {
+  padding-left: 40px;
+}
+ .form-group label {
+   margin-right: 20px;
+ }
 
 //ID selectors
 
 #med-yellow-checkout {
   position: absolute;
   z-index: 1;
-  margin-left: 10px;
+  padding-right: 245px;
+  margin-top: 30px;
 }
 
 #lg-yellow-border {
-float: right;
+float: left;
 position: fixed;
 z-index: 1;
 padding-right: 10px;
@@ -112,5 +132,5 @@ margin-top: 50px;
 #checkout-title {
   position: absolute;
   z-index: 1;
-  padding-left: 200px;
+  margin-left: 200px;
 }
