@@ -2,17 +2,25 @@
 
 //User Interface Logic
 $(document).ready(function(){
+  $(".checkout-wrap").hide();
   $("#sandboarder").click(function() {
-    $(".result").append('<img src="img/sand-boarding.png" alt="Sandboarding description" />');
+    $(".result").append('<img src="img/sand2.png" alt="Sandboarding description" />');
+    $(".checkout-wrap").show();
   });
   $("#spaceship").click(function() {
-    $(".result").append('<img src="img/space-races.png" alt="Space races description" />');
+    $(".result").append('<img src="img/spaceship2.png" alt="Space races description" />');
+    $(".checkout-wrap").show();
   });
   $("#jetpack").click(function() {
-    $(".result").append('<img src="img/jet-packs.png" alt="Jetpack description" />');
+    $(".result").append('<img src="img/jet2.png" alt="Jetpack description" />');
+    $(".checkout-wrap").show();
   });
   $("#car").click(function() {
-    $(".result").append('<img src="img/dune-buggy.png" alt="Dune Buggy description" />');
+    $(".result").append('<img src="img/dune2.png" alt="Dune Buggy description" />');
+    $(".checkout-wrap").show();
+  });
+  $("#x-out-checkout").click(function(){
+    $(".checkout-wrap").hide();
   });
 
   $("#checkout-input").submit(function(){

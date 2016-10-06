@@ -1,11 +1,135 @@
+//fonts
+
+
+
+//universal selectors
+h1 {
+  font-family: 'portico', sans-serif;
+  font-size: 48px;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'righteous', sans-serif;
+  font-size: 30px;
+  color: #8cc4bc;
+  margin: 20px 0px 30px 40px;
+}
+
+label {
+  font-family: 'righteous', sans-serif;
+  font-size: 18px;
+  color: #8cc4bc;
+}
+
+h6 {
+  font-family: 'cabin', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  width: 167px;
+  height: 100%;
+  padding: 10px;
+  margin-left: 250px;
+  margin-right: 20px;
+}
+
+nav {
+  padding: 1% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5%;
+    text-transform: uppercase;
+    border-left: 3px solid white;
+    padding: 3%;
+    &:first-child {
+      border-left: none;
+    }
+  }
+}
+
+form {
+  background-color: #607477;
+  margin: 20px;
+}
 
 //class selectors
 .checkout-wrap {
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  top: 6em;
+  width: 70%;
+  height: 87%;
   background-color: #362533;
 }
 
-.result {
-  background: white;
+.links {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.submit {
+background: #CF5423;
+border: 2px solid #FFFFFF;
+border-radius: 5px;
+padding: 15px 30px 15px 30px;
+font-family: 'righteous';
+letter-spacing: 0.5px;
+margin: 10px 20px 50px 250px;
+}
+
+.checkout-flex {
+  display: flex;
+  width: 95%;
+  justify-content: flex-end;
+  margin-right: 20px;
+  border-right: 5px solid #F3B968;
+  border-bottom: 5px solid #F3B968;
+}
+
+.form-control {
+  width: 216px;
+  height: 35px;
+  margin: 1px 20px 15px 10px;
+}
+
+.radio {
+  padding-left: 40px;
+}
+
+.form-group {
+  padding-left: 40px;
+}
+ .form-group label {
+   margin-right: 20px;
+ }
+
+//ID selectors
+
+#med-yellow-checkout {
+  position: absolute;
+  z-index: 1;
+  padding-right: 245px;
+  margin-top: 30px;
+}
+
+#lg-yellow-border {
+float: left;
+position: fixed;
+z-index: 1;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+
+#name-input {
+margin-top: 50px;
+}
+
+#checkout-title {
+  position: absolute;
+  z-index: 1;
+  margin-left: 200px;
 }
