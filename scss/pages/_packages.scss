@@ -88,8 +88,8 @@ input {
 .small-flyer-red {
   border: 2px solid tomato;
   position: absolute;
-  top: 33%;
-  right: 35%;
+  top: 13%;
+  right: 11%;
 }
 
 .jetpack {
@@ -129,7 +129,13 @@ input {
   -webkit-animation: carExhaust 6s 2s infinite;
 }
 
-.sandboarder-desc, .spacerace-desc, .dune-buggy-desc, .jetpack-desc {
+.mountain-climber {
+  position: absolute;
+  top: 15%;
+  right: 0%;
+}
+
+.sandboarder-desc, .spacerace-desc, .dune-buggy-desc, .jetpack-desc, .climber-desc  {
   opacity: 0;
   transition: all 1.5s;
   cursor: pointer;
@@ -152,6 +158,10 @@ input {
 }
 
 .jetpack:hover .jetpack-desc {
+  opacity: 1;
+}
+
+.mountain-climber:hover .climber-desc {
   opacity: 1;
 }
 
