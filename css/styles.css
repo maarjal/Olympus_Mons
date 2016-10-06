@@ -148,6 +148,9 @@ body {
   background-size: cover;
   background-position: center; }
 
+.search {
+  visibility: hidden; }
+
 /* nav-bar: */
 nav {
   padding: 1% 5%;
@@ -227,6 +230,20 @@ input {
   bottom: 25%;
   right: 14%; }
 
+.car-exhaust1 {
+  opacity: 0;
+  position: absolute;
+  bottom: 46%;
+  right: 40%;
+  -webkit-animation: carExhaust 6s 2s infinite; }
+
+.car-exhaust2 {
+  opacity: 0;
+  position: absolute;
+  bottom: 33%;
+  right: 26%;
+  -webkit-animation: carExhaust 6s 2s infinite; }
+
 .sandboarder-desc, .spacerace-desc, .dune-buggy-desc, .jetpack-desc {
   opacity: 0;
   transition: all 1.5s;
@@ -234,6 +251,9 @@ input {
 
 .sandboarder:hover .sandboarder-desc {
   opacity: 1; }
+
+.sandboarder:hover .sanboarder-img {
+  -webkit-animation: rotate 3s ease-out forwards; }
 
 .red-spaceship:hover .spacerace-desc {
   opacity: 1; }
@@ -244,6 +264,24 @@ input {
 .jetpack:hover .jetpack-desc {
   opacity: 1; }
 
+.jetpack:hover {
+  -webkit-animation: jetpackMove 3s ease-out forwards; }
+
+.green-spaceship:hover {
+  -webkit-animation: rocketMove 3s ease-out forwards; }
+
+@keyframes rocketMove {
+  100% {
+    left: -30%; } }
+@keyframes jetpackMove {
+  100% {
+    top: 7%; } }
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg); } }
+@keyframes carExhaust {
+  60% {
+    opacity: 1; } }
 .basecamp-wrap {
   width: 100%;
   height: 100%;
