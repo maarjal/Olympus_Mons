@@ -58,8 +58,10 @@ form {
 
 //class selectors
 .checkout-wrap {
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  top: 6em;
+  width: 70%;
+  height: 87%;
   background-color: #362533;
 }
 
