@@ -229,7 +229,8 @@ input {
 
 .sandboarder-desc, .spacerace-desc, .dune-buggy-desc, .jetpack-desc {
   opacity: 0;
-  transition: all 1.5s; }
+  transition: all 1.5s;
+  cursor: pointer; }
 
 .sandboarder:hover .sandboarder-desc {
   opacity: 1; }
