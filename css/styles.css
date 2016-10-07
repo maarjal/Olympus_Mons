@@ -167,6 +167,13 @@ nav {
     nav a:first-child {
       border-left: none; }
 
+.many-stars {
+  width: 100%;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  -webkit-animation: starsMove 15s ease-out forwards infinite; }
+
 .links {
   width: 30%;
   display: flex;
@@ -293,6 +300,9 @@ input {
 @keyframes carExhaust {
   60% {
     opacity: 1; } }
+@keyframes starsMove {
+  100% {
+    left: -5%; } }
 .basecamp-wrap {
   width: 100%;
   height: 100%;
