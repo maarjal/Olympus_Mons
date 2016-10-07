@@ -63,23 +63,21 @@
         <img class="climber-desc" src="img/climb-book.png" alt="Mountain Climber description" />
       </div>
     </div>
-
+<!-- checkout modal BELOW -->
     <div class="checkout-wrap">
       <nav>
         <div class="logo">
           <a href="index.html"><img src="img/logo.png" alt="Olympus Mons logo" /></a>
         </div>
         <div class="links">
-          <a href="checkout.html">Checkout</a>
+          <!-- <a href="checkout.html">Checkout</a> -->
           <a href="packages.html">Packages</a>
           <a href="basecamp.html">Basecamp</a>
         </div>
-        <div class="search">
-          <input type="button" name="name" value="" placeholder="Search">
-          <button class="search-button" type="button" name="button">Search</button>
-        </div>
         <div class="checkout-title">
           <h1>CHECKOUT</h1>
+        </div>
+        <div>
           <img src="img/flame-checkout.png" alt="a rocket flame"/>
           <img id="x-out-checkout" src="img/x-out-close.png" alt="an x to close the screen"/>
         </div>
@@ -92,7 +90,7 @@
           <!-- a div to place an image of the products when clicked -->
         </div>
         <img id="med-yellow-checkout" src="img/yellow-lines-med.png" alt="a medium yellow corner"/>
-        <form id="checkout-input" class="checkout-input-bar">
+        <form id="checkout-form" class="checkout-input-bar">
           <div class="form-group">
             <label for="name">Name:</label>
             <input id="name-input" class="form-control" type="text" placeholder=" first last" required>
@@ -103,9 +101,9 @@
           </div>
           <div class="form-group">
             <label for="name">Bitcoin Card:</label>
-            <input id="bitcoin-input" class="form-control" type="text" placeholder="  $ $ $" required>
+            <input id="card-input" class="form-control" type="text" placeholder="  $ $ $" required>
           </div>
-          <div class="form-group" id="medical-window">
+          <div class="form-group" id="input-medical">
             <label for="name">Medical Conditions:</label>
             <input id="medical-input" class="form-control" type="text" placeholder=" Your conditions here" required>
           </div>
@@ -124,6 +122,9 @@
           </div>
           <h2>Total:</h2>
           <button class="submit" type="submit" name="button">Place Order</button>
+          <div id="output">
+  <!-- Dom manipulation to show an order has been confirmed. -->
+          </div>
         </div>
       </form>
     </div>

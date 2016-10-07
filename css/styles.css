@@ -396,7 +396,7 @@ h2 {
   font-family: 'righteous', sans-serif;
   font-size: 30px;
   color: #8cc4bc;
-  margin: 20px 0px 30px 40px; }
+  margin: 20px 0px 20px 40px; }
 
 label {
   font-family: 'righteous', sans-serif;
@@ -435,7 +435,7 @@ form {
 .checkout-wrap {
   position: absolute;
   top: 6em;
-  width: 70%;
+  width: 57%;
   height: 87%;
   background-color: #362533; }
 
@@ -475,6 +475,9 @@ form {
 .form-group label {
   margin-right: 20px; }
 
+.result {
+  margin-top: 20px; }
+
 #med-yellow-checkout {
   position: absolute;
   z-index: 1;
@@ -491,9 +494,9 @@ form {
 #name-input {
   margin-top: 50px; }
 
-#checkout-title {
+.checkout-title {
   position: absolute;
   z-index: 1;
-  margin-left: 200px; }
+  margin-left: 45%; }
 
 /*# sourceMappingURL=styles.css.map */

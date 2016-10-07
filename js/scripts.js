@@ -1,5 +1,13 @@
 // Business Logic
 
+// var databases = [];
+// function MarsOrder (name, email, card, medical){
+//   this.name = name;
+//   this.email = email;
+//   this.card = card;
+//   this.medical = medical;
+// }
+
 //User Interface Logic
 $(document).ready(function(){
   $(".checkout-wrap").hide();
@@ -31,8 +39,18 @@ $(document).ready(function(){
     $(".checkout-wrap").hide();
   });
 
-  $("#checkout-input").submit(function(){
-  event.preventDefault();
-  var waiver = $("input:radio[name=waiver]:checked").val();
-  });
+  // $("#checkout-form").submit(function(){
+  // event.preventDefault();
+  // var inputName = $("#name-input").val();
+  // var inputEmail = $("#email-input").val();
+  // var inputCard = $("#card-input").val();
+  // var inputMedical = $("#medical-input").val();
+  // var waiver = $("input:radio[name=waiver]:checked").val();
+  // var newMarsOrder = new Mars Order (inputName, inputEmail, inputCard, inputMedical);
+  // databases.push(newMarsOrder);
+  //
+  // $("#output").append("<h2> Thanks, we will be in touch soon.</h2>");
+  // $("#output").slideDown(1500);
+  // $("#output").slideUp(1500);
+  // });
 });
