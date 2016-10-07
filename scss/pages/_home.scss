@@ -32,7 +32,6 @@ body {
 .red-man {
   position: absolute;
   right: -30%;
-  // right: 10%;
   top: 50%;
   -webkit-animation: redManMove 3s ease-out forwards;
 }
@@ -40,7 +39,6 @@ body {
 .green-man {
   position: absolute;
   left: -30%;
-  // left: 5%;
   top: 10%;
   -webkit-animation: greenManMove 3s ease-out forwards;
 }

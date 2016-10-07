@@ -28,7 +28,7 @@ _If there are any issues encountered on the site, please contact us at help@olym
 * SketchApp
 * HTML
 * CSS
-* SASS
+* Sass
 * jQuery
 * JavaScript
 * Invision
